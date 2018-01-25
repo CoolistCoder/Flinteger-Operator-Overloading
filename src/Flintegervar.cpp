@@ -20,6 +20,7 @@ int main()
 	*flint += 10;
 	cout << "The value of the Flinteger is now " << *flint << endl;
 
+	delete flint;
 
 	return 0;
 }
